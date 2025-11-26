@@ -16,9 +16,8 @@ The dataset contains 3,900 customer records with attributes such as age, gender,
 - Microsoft SQL Server (T-SQL)
 - SQL Server Management Studio (SSMS)
 - Power BI Desktop
-- Python (pandas, pyodbc)
+- Python (pandas, pyodbc for database connectivity)
 - Jupyter Notebook
-- Windows 10 / 11
 
 # Python Data Exploration & Cleaning
 Before analysis, the dataset was cleaned and transformed using Python:
@@ -31,7 +30,7 @@ Before analysis, the dataset was cleaned and transformed using Python:
 df['review_rating'] = df.groupby('category')['review_rating'].transform(lambda x: x.fillna(x.median()))
 
 
-# Column Standardization
+## Column Standardization
 - Renamed columns to snake_case for consistency:
 df.columns = df.columns.str.lower().str.replace(' ', '_')
 df = df.rename(columns={'purchase_amount_(usd)': 'purchase_amount'})
