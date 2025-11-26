@@ -31,13 +31,13 @@ Before analysis, the dataset was cleaned and transformed using Python:
 df['review_rating'] = df.groupby('category')['review_rating'].transform(lambda x: x.fillna(x.median()))
 
 
-🔹 Column Standardization
+# Column Standardization
 - Renamed columns to snake_case for consistency:
 df.columns = df.columns.str.lower().str.replace(' ', '_')
 df = df.rename(columns={'purchase_amount_(usd)': 'purchase_amount'})
 
 
-🔹 Feature Engineering
+# Feature Engineering
 - Created age_group using quantile-based binning:
 labels = ['Young', 'Middle-aged', 'Adult', 'Old Age']
 df['age_group'] = pd.qcut(df['age'], q=4, labels=labels)
@@ -50,7 +50,7 @@ frequency_mapping = {
 df['purchase_frequency_days'] = df['frequency_of_purchases'].map(frequency_mapping)
 
 
-🔹 Database Integration
+# Database Integration
 - Connected to SQL Server using pyodbc
 - Created and populated Customer_shopping_behaviour table in Test_DB
 - Verified schema and inserted cleaned data row-by-row
