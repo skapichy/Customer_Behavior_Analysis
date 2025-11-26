@@ -51,17 +51,34 @@ df['purchase_frequency_days'] = df['frequency_of_purchases'].map(frequency_mappi
 - Verified schema and inserted cleaned data row-by-row
 
 # SQL Analysis Highlights
-- Gender-Based Revenue
-- High-Spending Discount Users
-- Top-Rated Products
-- Shipping Type Impact
-- Subscriber vs Non-Subscriber Behavior
-- Discount Performance
-- Customer Segmentation
-- Category-Level Product Ranking
-- Repeat Buyer Subscription Trend
-- Revenue by Age Group
-- Top Products by Age Group and Category
+### Gender-Based Revenue
+  - Calculate total revenue from male vs. female customers.
+### High-Spending Discount Users 
+ - Identify customers who used discounts and still spent above the average purchase amount.
+### Top-Rated Products
+- Retrieve the top products with the highest average review ratings.
+### Shipping Type Impact
+ - Compare average purchase amounts between Standard and Express shipping.
+### Subscriber vs Non-Subscriber Behavior -
+ - Compare average spend and total revenue between subscribed and unsubscribed customers.
+### Discount Performance
+ - Identify:
+      Top 5 products most often purchased with discounts
+      Products with the highest percentage of discounted purchases
+### Customer Segmentation
+ - Group customers into:
+    New
+    Returning
+    Loyal
+    based on previous purchases.
+### Category-Level Product Ranking
+ - Find the top 3 most purchased products within each category.
+### Repeat Buyer Subscription Trend
+ - Analyze whether customers with >5 previous purchases are more likely to subscribe.
+### Revenue by Age Group
+ - Generate total revenue by age group.
+### Top Products by Age Group and Category
+ - Retrieve the top purchased items per category per age group.
 
 # Power BI Dashboard Insights
 Your Power BI dashboard brings the data to life with interactive visuals and filters:
