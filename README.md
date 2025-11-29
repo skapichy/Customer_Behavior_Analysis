@@ -123,8 +123,8 @@ Your Power BI dashboard brings the data to life with interactive visuals and fil
 - Blouses, shirts, and dresses are top performers across age groups
 
 # Business Recommendations
-- 🎯 Target loyal and repeat buyers with exclusive subscription benefits
-- 📢 Promote high-rated products in campaigns
-- 💸 Optimize discount strategies for high-converting items
-- 🚀 Enhance express shipping for high-value customers
-- 📬 Segment marketing by age group and category for tailored promotions
+- Target loyal and repeat buyers with exclusive subscription benefits
+- Promote high-rated products in campaigns
+- Optimize discount strategies for high-converting items
+- Enhance express shipping for high-value customers
+- Segment marketing by age group and category for tailored promotions
