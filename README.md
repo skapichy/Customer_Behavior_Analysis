@@ -3,14 +3,14 @@ This project explores customer shopping behavior using Microsoft SQL Server, Pow
 The dataset contains 3,900 customer records with attributes such as age, gender, location, item purchased, category, purchase amount, review rating, subscription status, shipping type, and more. The goal is to extract actionable insights that support data-driven decision-making in marketing, sales, and operations.
 
 # Project Objectives
-- 🧠 Understand customer purchasing behavior across demographics and product categories
-- 💰 Compare revenue and spending patterns across gender, age groups, and subscription status
-- 🎯 Identify top-performing products and categories
-- 🛍️ Evaluate the impact of discounts and shipping types on customer spend
-- 🔁 Segment customers based on loyalty and purchase frequency
-- 🧹 Clean and transform raw data for analysis
-- 📊 Visualize trends using Power BI for executive-level reporting
-- 📈 Provide strategic recommendations to improve customer engagement and profitabilit
+- Understand customer purchasing behavior across demographics and product categories
+- Compare revenue and spending patterns across gender, age groups, and subscription status
+- Identify top-performing products and categories
+- Evaluate the impact of discounts and shipping types on customer spend
+- Segment customers based on loyalty and purchase frequency
+- Clean and transform raw data for analysis
+- Visualize trends using Power BI for executive-level reporting
+- Provide strategic recommendations to improve customer engagement and profitabilit
 
 #  Tools & Technologies
 - Microsoft SQL Server (T-SQL)
@@ -115,12 +115,12 @@ Your Power BI dashboard brings the data to life with interactive visuals and fil
 - Open the Power BI dashboard to explore visual insights
 
 # Summary of Insights
-- 👥 Male customers generate slightly more revenue, but female customers show strong engagement
-- 🛍️ Discounts drive purchases, especially in accessories and clothing
-- 🚚 Express shipping correlates with higher spend
-- 🔁 Loyal customers are more likely to subscribe and spend more
-- 🧓 Adults and middle-aged groups are the most profitable demographics
-- 🛒 Blouses, shirts, and dresses are top performers across age groups
+- Male customers generate slightly more revenue, but female customers show strong engagement
+- Discounts drive purchases, especially in accessories and clothing
+- Express shipping correlates with higher spend
+- Loyal customers are more likely to subscribe and spend more
+- Adults and middle-aged groups are the most profitable demographics
+- Blouses, shirts, and dresses are top performers across age groups
 
 # Business Recommendations
 - 🎯 Target loyal and repeat buyers with exclusive subscription benefits
